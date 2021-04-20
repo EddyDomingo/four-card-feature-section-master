@@ -1,0 +1,159 @@
+/* Global Styles */
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+/* Variables */
+/* Large fonts*/
+/* Mobile Fonts*/
+/* Fonts Weights*/
+/* Main Colors */
+/* Secondary Colors */
+/* Breakpoints */
+/* Typography */
+h1 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #4c4e61;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #4c4e61;
+  margin: 1em auto 0 auto;
+}
+
+p {
+  font-size: 0.867rem;
+  font-weight: 400;
+  color: #a3a5ae;
+  margin: 0 0;
+}
+
+span {
+  font-weight: 600;
+}
+
+/* Flex-box layout */
+.main-container {
+  width: 100%;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+  margin: 5.2em auto 5em auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+.card-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* Components */
+.card {
+  width: 85%;
+  max-width: 350px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background: #fafafa;
+  margin: 1em auto;
+}
+
+.supervisor {
+  border-top: 5px solid #45d3d3;
+}
+
+.team-builder {
+  border-top: 5px solid #ea5353;
+}
+
+.karma {
+  border-top: 5px solid #fcaf4a;
+}
+
+.calculaor {
+  border-top: 5px solid #549ef2;
+}
+
+.card-text {
+  margin: 0 1.5em 0 1.5em;
+  padding: 0 0 2em 0;
+}
+
+.icons {
+  padding: 0.5em 1em 1em 1em;
+  float: right;
+}
+
+/* media queries */
+@media (min-width: 650px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  .card-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: #ea5353 solid 2px;
+  }
+  .card1-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

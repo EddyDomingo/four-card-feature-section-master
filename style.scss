@@ -1,0 +1,176 @@
+/* Global Styles */
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    background: hsl(0, 0%, 95%);
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/* Variables */
+
+/* Large fonts*/
+$fontSize36: 2.4rem;
+$fontSize13: 0.867rem;
+$fontSize15: 1rem;
+$fontSize20: 1.333rem;
+
+/* Mobile Fonts*/
+$fontSize24: 1.6rem;
+
+/* Fonts Weights*/
+$fontWeight200: 200;
+$fontWeight400: 400;
+$fontWeight600: 600;
+
+
+/* Main Colors */
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+/* Secondary Colors */
+
+$textColor: #4D4F62;
+$VeryDarkBlue: #4c4e61;
+$GrayishBlue: hsl(229, 6%, 66%);
+$VeryLightGray: hsl(0, 0%, 98%);
+
+/* Breakpoints */
+$mobile: 375px;
+$desktop: 1440px;
+
+
+/* Typography */
+
+h1{
+    font-size: $fontSize24;
+    font-weight: $fontWeight200;
+    color: $VeryDarkBlue;
+}
+
+h2{
+    font-size: $fontSize24;
+    font-weight: $fontWeight600;
+    color: $VeryDarkBlue;
+    margin: 1em auto 0 auto;
+}
+
+p{
+    font-size: $fontSize13;
+    font-weight: $fontWeight400;
+    color: $GrayishBlue;
+    margin: 0 0;
+
+}
+
+span{
+    font-weight: $fontWeight600;
+}
+
+
+
+/* Flex-box layout */
+
+.main-container{
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    margin: 5.2em auto 5em auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.card1-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card2-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Components */
+
+.card{
+    width:85%;
+    max-width:350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    background: $VeryLightGray;
+    margin: 1em auto;
+}
+
+.supervisor{
+    border-top: 5px solid $Cyan;
+}
+
+.team-builder{
+    border-top: 5px solid $Red;
+}
+
+.karma{
+    border-top: 5px solid $Orange;
+}
+
+.calculaor{
+    border-top: 5px solid $Blue;
+}
+
+.card-text{
+    margin: 0 1.5em 0 1.5em;
+    padding: 0 0 2em 0;
+}
+
+.icons{
+    padding: 0.5em 1em 1em 1em;
+    float: right;
+}
+
+
+/* media queries */
+
+@media (min-width: 650px){
+    h1{
+        font-size: $fontSize36;
+    }
+    .card-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border:hsl(0, 78%, 62%) solid 2px; 
+    }
+    .card1-container{
+       justify-content: center;
+    }
+    
+}
+
+
+
+
