@@ -148,7 +148,6 @@ span {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: #ea5353 solid 2px;
   }
   .card1-container {
     -webkit-box-pack: center;
